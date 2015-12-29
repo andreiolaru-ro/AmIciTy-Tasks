@@ -1,0 +1,14 @@
+D:\Poli\Master\Cercetare\Application\AmbientIntelligence\AmbientIntelligence\bin\AmbientIntelligence.dll.config
+D:\Poli\Master\Cercetare\Application\AmbientIntelligence\AmbientIntelligence\bin\AmbientIntelligence.dll
+D:\Poli\Master\Cercetare\Application\AmbientIntelligence\AmbientIntelligence\bin\AmbientIntelligence.pdb
+D:\Poli\Master\Cercetare\Application\AmbientIntelligence\AmbientIntelligence\bin\Newtonsoft.Json.dll
+D:\Poli\Master\Cercetare\Application\AmbientIntelligence\AmbientIntelligence\bin\System.Net.Http.Formatting.dll
+D:\Poli\Master\Cercetare\Application\AmbientIntelligence\AmbientIntelligence\bin\System.Web.Http.dll
+D:\Poli\Master\Cercetare\Application\AmbientIntelligence\AmbientIntelligence\bin\System.Web.Http.WebHost.dll
+D:\Poli\Master\Cercetare\Application\AmbientIntelligence\AmbientIntelligence\bin\Newtonsoft.Json.xml
+D:\Poli\Master\Cercetare\Application\AmbientIntelligence\AmbientIntelligence\bin\System.Net.Http.Formatting.xml
+D:\Poli\Master\Cercetare\Application\AmbientIntelligence\AmbientIntelligence\bin\System.Web.Http.xml
+D:\Poli\Master\Cercetare\Application\AmbientIntelligence\AmbientIntelligence\bin\System.Web.Http.WebHost.xml
+D:\Poli\Master\Cercetare\Application\AmbientIntelligence\AmbientIntelligence\obj\Debug\AmbientIntelligence.dll
+D:\Poli\Master\Cercetare\Application\AmbientIntelligence\AmbientIntelligence\obj\Debug\AmbientIntelligence.pdb
+D:\Poli\Master\Cercetare\Application\AmbientIntelligence\AmbientIntelligence\obj\Debug\AmbientIntelligence.csprojResolveAssemblyReference.cache

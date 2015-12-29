@@ -1,0 +1,13 @@
+{
+    "name": "myApp",
+    "version": "0.0.1",
+    "dependencies": {
+    },
+    "devDependencies": {
+        "jquery": "2.0.3",
+        "angular": "1.2.13",
+        "angular-route": "1.2.13",
+        "angular-resource": "1.2.13",
+        "bootstrap": "3.2.0"
+    }
+}
