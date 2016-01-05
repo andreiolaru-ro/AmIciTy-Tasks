@@ -1,0 +1,16 @@
+Back-end:
+  - Visual Studio
+  
+Front-end:
+  - instalat node.js(https://nodejs.org/en/download/) si pus ca environment path
+  - install bower ca dependinta globala (asta ca sa descarce librariile) 
+    prin comanda "npm install -g bower" in folderul proiectului in cmd.
+    (Eu am dat commit cu toate librariile, pentru versiunea curenta nu ar mai trebui rulata aceasta comanda, 
+    o sa dau commit fara librarii si atunci va trebui rulata).
+    
+  - install grunt (tot in cmd) prin comanda: "npm install -g grunt-cli"
+  
+  Pentru rulare comanda: "grunt server"
+
+De asemenea trebuie rulat chrome-ul cu "--disable-web-security" (cand nu mai exista nicio instanta de chrome activa)  
+[Cross-Origin Resource Sharing].
