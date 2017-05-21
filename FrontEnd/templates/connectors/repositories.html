@@ -1,0 +1,12 @@
+<div style="padding-left:4em">
+    <ul>
+        <div ng-repeat="repository in repositories">
+            <div><b>{{repository["clone_url"]}}</b></div>
+            <div ng-repeat="(key, val) in repository">
+                <li> {{key}} : {{val}} </li>
+            </div>
+            <p></p>
+        </div>
+    </ul>
+    <br/>
+</div>

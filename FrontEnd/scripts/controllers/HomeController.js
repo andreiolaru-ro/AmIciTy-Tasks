@@ -1,3 +1,3 @@
-myApp.controller('HomeController', ['$scope', '$http', function($scope, $http){
-    $scope.title = "Welcome home";
+myApp.controller('HomeController', ['$scope', '$http', 'localStorageFactory',  function($scope, $http, localStorageFactory){
+
 }]);

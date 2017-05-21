@@ -5,24 +5,39 @@
     <title>My App</title>
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.css"/>
+
+
 </head>
 <body>
 <div ng-include="'templates/menu.html'"></div>
 <div ng-view></div>
+<script src="https://apis.google.com/js/client.js"></script>
+
 <script type="text/javascript" src="bower_components/jquery/jquery.js"></script>
 <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 <script type="text/javascript" src="bower_components/angular/angular.js"></script>
 <script type="text/javascript" src="bower_components/angular-resource/angular-resource.js"></script>
 <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+<script type="text/javascript" src="node_modules/snowball/stemmer/lib/Snowball.min.js"></script>
+<script type="text/javascript" src="node_modules/underscore/underscore-min.js"></script>
+<script type="text/javascript" src="node_modules/lodash/lodash.js"></script>
+<script type="text/javascript" src="node_modules/js-base64/base64.js"></script>
+<script type="text/javascript" src="scripts/util/GmailParseMessage.js"></script>
+
 <script type="text/javascript" src="scripts/app.js"></script>
 <script type="text/javascript" src="scripts/controllers/MainController.js"></script>
 <script type="text/javascript" src="scripts/controllers/MenuController.js"></script>
 <script type="text/javascript" src="scripts/controllers/HomeController.js"></script>
-<script type="text/javascript" src="scripts/controllers/CalendarController.js"></script>
-<script type="text/javascript" src="scripts/controllers/EmailController.js"></script>
-<script type="text/javascript" src="scripts/controllers/ForumController.js"></script>
-<script type="text/javascript" src="scripts/controllers/RSSController.js"></script>
-<script type="text/javascript" src="scripts/controllers/TaskController.js"></script>
+<script type="text/javascript" src="scripts/connectors/Github.js"></script>
+<script type="text/javascript" src="scripts/connectors/Repositories.js"></script>
+<script type="text/javascript" src="scripts/services/GithubService.js"></script>
+<script type="text/javascript" src="scripts/services/GmailService.js"></script>
+<script type="text/javascript" src="scripts/services/CalendarService.js"></script>
+<script type="text/javascript" src="scripts/controllers/GmailController.js"></script>
+<script type="text/javascript" src="scripts/controllers/TestController.js"></script>
+<script type="text/javascript" src="scripts/storage/localStorageFactory.js"></script>
+<script type="text/javascript" src="scripts/util/StopWords.js"></script>
+<script type="text/javascript" src="scripts/util/Stemmer.js"></script>
 
 </body>
 </html>

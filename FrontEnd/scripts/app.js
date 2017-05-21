@@ -10,8 +10,24 @@ myApp.config(['$routeProvider',
                 templateUrl: 'templates/main.html',
                 controller: 'MainController'
             })
+            .when('/github', {
+                templateUrl: 'templates/connectors/github.html',
+                controller: 'Github'
+            })
+            .when('/github/repos', {
+                templateUrl: 'templates/connectors/repositories.html',
+                controller: 'Repositories'
+            })
+            .when('/gmail', {
+                templateUrl: 'templates/connectors/gmail.html',
+                controller: 'GmailController'
+            })
+            .when('/test', {
+                templateUrl: 'templates/test.html',
+                controller: 'TestController'
+            })
             .otherwise({
-                templateUrl: 'templates/home.html',
-                controller: 'HomeController'
+                templateUrl: 'templates/connectors/gmailPreview.html',
+                controller: 'Gmail'
             });
     }]);
